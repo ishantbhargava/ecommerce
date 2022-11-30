@@ -8,23 +8,14 @@ import { v4 as uuid } from "uuid";
 export const products = [
   {
     _id: uuid(),
-    title: "You Can WIN",
-    author: "Shiv Khera",
-    price: "5000",
-    categoryName: "non-fiction",
+    brand:"ARMANI EXCHANGE",
+    src:"./images/mensimg-1.png",
+    title: "All-Over Micro Logo Print Slim Fit Shirt",
+    price: "500",
+    MRP: "1000",
+    discount:"50%",
+    rating:"3.5/5",
+    categoryName: "MEN",
   },
-  {
-    _id: uuid(),
-    title: "You are Winner",
-    author: "Junaid Qureshi",
-    price: "3000",
-    categoryName: "horror",
-  },
-  {
-    _id: uuid(),
-    title: "Think and Grow Rich",
-    author: "Shiv Khera",
-    price: "1000",
-    categoryName: "fiction",
-  },
+  
 ];
